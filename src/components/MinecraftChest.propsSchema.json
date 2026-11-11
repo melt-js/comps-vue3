@@ -1,0 +1,223 @@
+[
+  {
+    "name": "open",
+    "type": "boolean",
+    "description": "箱子是否打开（可用 v-model:open 双向绑定）",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  },
+  {
+    "name": "width",
+    "type": "number",
+    "description": "箱体宽度，单位 px",
+    "default": "280",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 280,
+    "control": {
+      "min": 160,
+      "max": 420,
+      "step": 10
+    }
+  },
+  {
+    "name": "depth",
+    "type": "number",
+    "description": "箱体进深，单位 px",
+    "default": "220",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 220,
+    "control": {
+      "min": 120,
+      "max": 340,
+      "step": 10
+    }
+  },
+  {
+    "name": "height",
+    "type": "number",
+    "description": "箱体高度，单位 px",
+    "default": "160",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 160,
+    "control": {
+      "min": 90,
+      "max": 260,
+      "step": 10
+    }
+  },
+  {
+    "name": "lidHeight",
+    "type": "number",
+    "description": "盖子的高度，单位 px",
+    "default": "48",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 48,
+    "control": {
+      "min": 24,
+      "max": 90,
+      "step": 2
+    }
+  },
+  {
+    "name": "wall",
+    "type": "number",
+    "description": "木板厚度（箱壁 / 箱沿），单位 px",
+    "default": "18",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 18,
+    "control": {
+      "min": 8,
+      "max": 32,
+      "step": 2
+    }
+  },
+  {
+    "name": "scale",
+    "type": "number",
+    "description": "整体缩放",
+    "default": "1",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1,
+    "control": {
+      "min": 0.5,
+      "max": 1.8,
+      "step": 0.05
+    }
+  },
+  {
+    "name": "yaw",
+    "type": "number",
+    "description": "初始水平环绕角，单位度",
+    "default": "-28",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": -28,
+    "control": {
+      "min": -180,
+      "max": 180,
+      "step": 2
+    }
+  },
+  {
+    "name": "pitch",
+    "type": "number",
+    "description": "初始俯仰角，单位度（限 -48 ~ -12）",
+    "default": "-28",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": -28,
+    "control": {
+      "min": -48,
+      "max": -12,
+      "step": 1
+    }
+  },
+  {
+    "name": "draggable",
+    "type": "boolean",
+    "description": "是否允许拖动环视",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "clickable",
+    "type": "boolean",
+    "description": "是否允许点击开合",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "sound",
+    "type": "boolean",
+    "description": "是否播放开箱 / 关箱音效",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "scene",
+    "type": "boolean",
+    "description": "是否画天空 / 云 / 草皮地面这套场景",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "duration",
+    "type": "number",
+    "description": "盖子翻转时长，单位毫秒",
+    "default": "280",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 280,
+    "control": {
+      "min": 80,
+      "max": 1200,
+      "step": 20
+    }
+  },
+  {
+    "name": "hint",
+    "type": "boolean",
+    "description": "是否显示底部提示",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "hintText",
+    "type": "string",
+    "description": "提示文案",
+    "default": "\"拖动环视 · 点击开合\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "拖动环视 · 点击开合"
+  }
+]

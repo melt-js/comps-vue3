@@ -1,0 +1,229 @@
+[
+  {
+    "name": "items",
+    "type": "() => WheelItem[]",
+    "description": "子菜单项，icon 可以放 emoji，label 是说明文字",
+    "default": "[{\n  key: 'schedule',\n  icon: '📅',\n  label: '日程'\n}, {\n  key: 'contact',\n  icon: '📞',\n  label: '联系'\n}, {\n  key: 'docs',\n  icon: '📚',\n  label: '文档'\n}, {\n  key: 'settings',\n  icon: '⚙️',\n  label: '设置'\n}, {\n  key: 'boost',\n  icon: '🚀',\n  label: '加速'\n}, {\n  key: 'feedback',\n  icon: '💡',\n  label: '反馈'\n}, {\n  key: 'stats',\n  icon: '📊',\n  label: '统计'\n}]",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": false
+  },
+  {
+    "name": "size",
+    "type": "number",
+    "description": "主按钮直径，单位 px",
+    "default": "80",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 80,
+    "control": {
+      "min": 48,
+      "max": 120,
+      "step": 4
+    }
+  },
+  {
+    "name": "itemSize",
+    "type": "number",
+    "description": "子按钮直径，单位 px",
+    "default": "60",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 60,
+    "control": {
+      "min": 40,
+      "max": 96,
+      "step": 4
+    }
+  },
+  {
+    "name": "radius",
+    "type": "number",
+    "description": "子按钮分布半径，单位 px",
+    "default": "120",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 120,
+    "control": {
+      "min": 70,
+      "max": 200,
+      "step": 10
+    }
+  },
+  {
+    "name": "color",
+    "type": "string",
+    "description": "主按钮渐变的起始色",
+    "default": "\"#1a237e\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#1a237e"
+  },
+  {
+    "name": "color2",
+    "type": "string",
+    "description": "主按钮渐变的结束色",
+    "default": "\"#3949ab\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#3949ab"
+  },
+  {
+    "name": "itemColor",
+    "type": "string",
+    "description": "子按钮底色",
+    "default": "\"#424242\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#424242"
+  },
+  {
+    "name": "accent",
+    "type": "string",
+    "description": "子按钮 hover 时的强调色",
+    "default": "\"#ffb300\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#ffb300"
+  },
+  {
+    "name": "openText",
+    "type": "string",
+    "description": "收起状态下主按钮的文字",
+    "default": "\"展开\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "展开"
+  },
+  {
+    "name": "closeText",
+    "type": "string",
+    "description": "展开状态下主按钮的文字",
+    "default": "\"收起\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "收起"
+  },
+  {
+    "name": "open",
+    "type": "boolean",
+    "description": "菜单是否展开（可用 v-model:open 双向绑定）",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  },
+  {
+    "name": "draggable",
+    "type": "boolean",
+    "description": "是否允许拖拽主按钮",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "dragThreshold",
+    "type": "number",
+    "description": "判定为拖拽的最小位移，小于它才当成点击，单位 px",
+    "default": "4",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 4,
+    "control": {
+      "min": 0,
+      "max": 20,
+      "step": 1
+    }
+  },
+  {
+    "name": "edgeMargin",
+    "type": "number",
+    "description": "距视口边缘的最小留白，单位 px",
+    "default": "16",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 16,
+    "control": {
+      "min": 0,
+      "max": 64,
+      "step": 4
+    }
+  },
+  {
+    "name": "initialX",
+    "type": "number",
+    "description": "初始位置（视口坐标，按钮中心）；传 -1 表示自动放到右下角",
+    "default": "-1",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": -1
+  },
+  {
+    "name": "initialY",
+    "type": "number",
+    "description": "初始位置的 Y 坐标；传 -1 表示自动放到右下角",
+    "default": "-1",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": -1
+  },
+  {
+    "name": "duration",
+    "type": "number",
+    "description": "展开动画时长，单位毫秒",
+    "default": "500",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 500,
+    "control": {
+      "min": 100,
+      "max": 1200,
+      "step": 50
+    }
+  },
+  {
+    "name": "zIndex",
+    "type": "number",
+    "description": "层级，浮在其他内容之上",
+    "default": "1000",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1000
+  }
+]

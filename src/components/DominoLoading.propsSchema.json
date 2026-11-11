@@ -1,0 +1,83 @@
+[
+  {
+    "name": "size",
+    "type": "number",
+    "description": "画布宽度，单位 px（高度按 0.6 比例）",
+    "default": "480",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 480,
+    "control": {
+      "min": 240,
+      "max": 760,
+      "step": 10
+    }
+  },
+  {
+    "name": "count",
+    "type": "number",
+    "description": "骨牌张数",
+    "default": "14",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 14,
+    "control": {
+      "min": 4,
+      "max": 24,
+      "step": 1
+    }
+  },
+  {
+    "name": "speed",
+    "type": "number",
+    "description": "速度倍率，1 为原始节奏",
+    "default": "1",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1,
+    "control": {
+      "min": 0.3,
+      "max": 3,
+      "step": 0.1
+    }
+  },
+  {
+    "name": "showBar",
+    "type": "boolean",
+    "description": "是否显示底部进度条",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "paused",
+    "type": "boolean",
+    "description": "是否暂停",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  },
+  {
+    "name": "text",
+    "type": "string",
+    "description": "底部文案，留空则不显示",
+    "default": "\"Loading\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "Loading"
+  }
+]

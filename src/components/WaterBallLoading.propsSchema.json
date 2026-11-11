@@ -1,0 +1,132 @@
+[
+  {
+    "name": "size",
+    "type": "number",
+    "description": "水球直径，单位 px",
+    "default": "200",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 200,
+    "control": {
+      "min": 100,
+      "max": 420,
+      "step": 10
+    }
+  },
+  {
+    "name": "color",
+    "type": "string",
+    "description": "水的深色（第一层波浪）",
+    "default": "\"#6c5ce7\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#6c5ce7"
+  },
+  {
+    "name": "color2",
+    "type": "string",
+    "description": "水的浅色（第二层波浪）",
+    "default": "\"#00ceff\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#00ceff"
+  },
+  {
+    "name": "auto",
+    "type": "boolean",
+    "description": "是否自动推进进度（关掉则吃 progress 的受控值）",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "progress",
+    "type": "number",
+    "description": "受控进度 0~100，auto 为 false 时生效",
+    "default": "0",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 0,
+    "control": {
+      "min": 0,
+      "max": 100,
+      "step": 1
+    }
+  },
+  {
+    "name": "duration",
+    "type": "number",
+    "description": "自动模式下走完一轮的时长，单位秒",
+    "default": "15",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 15,
+    "control": {
+      "min": 2,
+      "max": 40,
+      "step": 1
+    }
+  },
+  {
+    "name": "speed",
+    "type": "number",
+    "description": "波浪转速倍率，1 为原始速度",
+    "default": "1",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1,
+    "control": {
+      "min": 0.2,
+      "max": 3,
+      "step": 0.1
+    }
+  },
+  {
+    "name": "showPercent",
+    "type": "boolean",
+    "description": "是否显示中间百分比",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "drops",
+    "type": "boolean",
+    "description": "是否显示水滴与涟漪",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "paused",
+    "type": "boolean",
+    "description": "是否暂停（波浪、进度、水滴都停）",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  }
+]

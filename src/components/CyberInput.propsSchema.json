@@ -1,0 +1,134 @@
+[
+  {
+    "name": "label",
+    "type": "string",
+    "description": "终端风格标签文案",
+    "default": "\"NEURAL_LINK\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "NEURAL_LINK"
+  },
+  {
+    "name": "modelValue",
+    "type": "string",
+    "description": "输入值，配合 v-model 使用",
+    "default": "\"\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": ""
+  },
+  {
+    "name": "placeholder",
+    "type": "string",
+    "description": "占位文字",
+    "default": "\"ENTER_COMMAND...\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "ENTER_COMMAND..."
+  },
+  {
+    "name": "statusText",
+    "type": "string",
+    "description": "状态行文案",
+    "default": "\"SYS.ONLINE\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "SYS.ONLINE"
+  },
+  {
+    "name": "version",
+    "type": "string",
+    "description": "状态行右侧的版本号",
+    "default": "\"v2.077\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "v2.077"
+  },
+  {
+    "name": "footerLeft",
+    "type": "string",
+    "description": "底部左侧的说明文案",
+    "default": "\"AES-256 ENCRYPTED\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "AES-256 ENCRYPTED"
+  },
+  {
+    "name": "pink",
+    "type": "string",
+    "description": "霓虹粉色（故障主色）",
+    "default": "\"#ff2a6d\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#ff2a6d"
+  },
+  {
+    "name": "cyan",
+    "type": "string",
+    "description": "霓虹青色（扫描线、次要色）",
+    "default": "\"#05d9e8\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#05d9e8"
+  },
+  {
+    "name": "glitch",
+    "type": "boolean",
+    "description": "是否启用故障抖动（关掉就是普通的霓虹输入框）",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "fragment",
+    "type": "boolean",
+    "description": "是否在打字 / 回车时飞出数据碎片",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "flash",
+    "type": "boolean",
+    "description": "是否保留故障时的闪光",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "disabled",
+    "type": "boolean",
+    "description": "是否禁用",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  }
+]

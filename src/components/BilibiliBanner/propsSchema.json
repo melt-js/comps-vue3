@@ -1,0 +1,78 @@
+[
+  {
+    "name": "theme",
+    "type": "'autumn-1' | 'autumn-2' | 'autumn-3' | 'autumn-4' | 'autumn-5' | 'spring-1' | 'spring-2' | 'spring-3' | 'spring-4' | 'spring-5' | 'spring-6' | 'summer-1' | 'summer-2' | 'summer-3' | 'summer-4' | 'summer-5' | 'summer-6' | 'summer-7' | 'winter-1' | 'winter-2' | 'winter-3' | 'winter-4' | 'winter-5'",
+    "description": "banner 主题，对应原仓库的 23 套节日 banner",
+    "default": "\"spring-1\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "spring-1",
+    "control": {
+      "options": {
+        "autumn-1": "autumn-1",
+        "autumn-2": "autumn-2",
+        "autumn-3": "autumn-3",
+        "autumn-4": "autumn-4",
+        "autumn-5": "autumn-5",
+        "spring-1": "spring-1",
+        "spring-2": "spring-2",
+        "spring-3": "spring-3",
+        "spring-4": "spring-4",
+        "spring-5": "spring-5",
+        "spring-6": "spring-6",
+        "summer-1": "summer-1",
+        "summer-2": "summer-2",
+        "summer-3": "summer-3",
+        "summer-4": "summer-4",
+        "summer-5": "summer-5",
+        "summer-6": "summer-6",
+        "summer-7": "summer-7",
+        "winter-1": "winter-1",
+        "winter-2": "winter-2",
+        "winter-3": "winter-3",
+        "winter-4": "winter-4",
+        "winter-5": "winter-5"
+      }
+    }
+  },
+  {
+    "name": "height",
+    "type": "number",
+    "description": "banner 高度，单位 px（原版固定 150）",
+    "default": "150",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 150,
+    "control": {
+      "min": 90,
+      "max": 320,
+      "step": 2
+    }
+  },
+  {
+    "name": "logo",
+    "type": "boolean",
+    "description": "是否显示左上角的 bilibili logo",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "background",
+    "type": "string",
+    "description": "没有图层铺满时的底色",
+    "default": "\"#f9f9f9\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#f9f9f9"
+  }
+]

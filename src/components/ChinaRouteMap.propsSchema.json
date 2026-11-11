@@ -1,0 +1,132 @@
+[
+  {
+    "name": "points",
+    "type": "() => RoutePoint[]",
+    "description": "路线站点（经纬度），默认给一组示例景点",
+    "default": "() => [\n      { name: '故宫', lon: 116.4, lat: 39.92 },\n      { name: '兵马俑', lon: 109.27, lat: 34.38 },\n      { name: '九寨沟', lon: 103.92, lat: 33.25 },\n      { name: '丽江古城', lon: 100.23, lat: 26.87 },\n      { name: '西湖', lon: 120.14, lat: 30.25 },\n    ]",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": false
+  },
+  {
+    "name": "editable",
+    "type": "boolean",
+    "description": "是否允许点地图追加站点",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "duration",
+    "type": "number",
+    "description": "播放一遍的时长，单位秒",
+    "default": "8",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 8,
+    "control": {
+      "min": 2,
+      "max": 20,
+      "step": 1
+    }
+  },
+  {
+    "name": "color",
+    "type": "string",
+    "description": "路线主色",
+    "default": "'#c64024'",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#c64024"
+  },
+  {
+    "name": "followZoom",
+    "type": "number",
+    "description": "播放时的跟随缩放倍数",
+    "default": "2.2",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 2.2,
+    "control": {
+      "min": 1,
+      "max": 4,
+      "step": 0.1
+    }
+  },
+  {
+    "name": "showCities",
+    "type": "boolean",
+    "description": "是否显示城市点",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "showLabels",
+    "type": "boolean",
+    "description": "是否显示站点名称",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "controls",
+    "type": "boolean",
+    "description": "是否显示缩放 / 播放控制条",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "tip",
+    "type": "boolean",
+    "description": "是否显示底部提示",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "tipText",
+    "type": "string",
+    "description": "提示文案",
+    "default": "'点地图加点 · 滚轮缩放 · 拖动平移'",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "点地图加点 · 滚轮缩放 · 拖动平移"
+  },
+  {
+    "name": "playing",
+    "type": "boolean",
+    "description": "是否正在播放（可用 v-model:playing）",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  }
+]

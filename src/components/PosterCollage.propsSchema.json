@@ -1,0 +1,125 @@
+[
+  {
+    "name": "items",
+    "type": "() => PosterItem[]",
+    "description": "拼贴图层（设计稿坐标，左上角为原点）",
+    "default": "[]",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": false
+  },
+  {
+    "name": "width",
+    "type": "number",
+    "description": "设计稿宽度，单位 px",
+    "default": "1400",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1400,
+    "control": {
+      "min": 600,
+      "max": 2000,
+      "step": 50
+    }
+  },
+  {
+    "name": "height",
+    "type": "number",
+    "description": "设计稿高度，单位 px",
+    "default": "800",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 800,
+    "control": {
+      "min": 300,
+      "max": 1200,
+      "step": 20
+    }
+  },
+  {
+    "name": "background",
+    "type": "string",
+    "description": "可选底图（铺满整张画布）",
+    "default": "\"\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": ""
+  },
+  {
+    "name": "paper",
+    "type": "string",
+    "description": "画布底色",
+    "default": "\"transparent\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "transparent"
+  },
+  {
+    "name": "hoverScale",
+    "type": "number",
+    "description": "悬停时放大的倍数",
+    "default": "1.4",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1.4,
+    "control": {
+      "min": 1,
+      "max": 1.8,
+      "step": 0.05
+    }
+  },
+  {
+    "name": "hoverLift",
+    "type": "number",
+    "description": "悬停时临时抬高的层级（在原层级基础上加）",
+    "default": "1000",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1000,
+    "control": {
+      "min": 0,
+      "max": 2000,
+      "step": 100
+    }
+  },
+  {
+    "name": "maxScale",
+    "type": "number",
+    "description": "缩放上限，避免大屏上放得过大",
+    "default": "1.5",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1.5,
+    "control": {
+      "min": 0.4,
+      "max": 2,
+      "step": 0.05
+    }
+  },
+  {
+    "name": "clickable",
+    "type": "boolean",
+    "description": "是否允许点击图层",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  }
+]

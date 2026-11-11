@@ -1,0 +1,142 @@
+[
+  {
+    "name": "height",
+    "type": "number",
+    "description": "排列总高度，单位 px",
+    "default": "300",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 300,
+    "control": {
+      "min": 120,
+      "max": 480,
+      "step": 10
+    }
+  },
+  {
+    "name": "width",
+    "type": "number",
+    "description": "螺旋宽度（左右摆动的总幅度），单位 px",
+    "default": "200",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 200,
+    "control": {
+      "min": 80,
+      "max": 400,
+      "step": 10
+    }
+  },
+  {
+    "name": "nodeCount",
+    "type": "number",
+    "description": "节点对数（每一行是一对碱基）",
+    "default": "12",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 12,
+    "control": {
+      "min": 4,
+      "max": 30,
+      "step": 1
+    }
+  },
+  {
+    "name": "amplitude",
+    "type": "number",
+    "description": "单侧最大摆动幅度，单位 px",
+    "default": "40",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 40,
+    "control": {
+      "min": 10,
+      "max": 90,
+      "step": 2
+    }
+  },
+  {
+    "name": "dotSize",
+    "type": "number",
+    "description": "节点直径，单位 px",
+    "default": "16",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 16,
+    "control": {
+      "min": 6,
+      "max": 32,
+      "step": 1
+    }
+  },
+  {
+    "name": "color",
+    "type": "string",
+    "description": "左列颜色",
+    "default": "\"#00d4ff\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#00d4ff"
+  },
+  {
+    "name": "color2",
+    "type": "string",
+    "description": "右列颜色",
+    "default": "\"#ff006e\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#ff006e"
+  },
+  {
+    "name": "speed",
+    "type": "number",
+    "description": "转一圈的时长，单位秒",
+    "default": "3",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 3,
+    "control": {
+      "min": 0.8,
+      "max": 8,
+      "step": 0.2
+    }
+  },
+  {
+    "name": "paused",
+    "type": "boolean",
+    "description": "是否暂停动画",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  },
+  {
+    "name": "text",
+    "type": "string",
+    "description": "底部文字，留空则不显示",
+    "default": "\"LOADING...\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "LOADING..."
+  }
+]

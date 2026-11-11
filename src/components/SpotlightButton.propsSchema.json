@@ -1,0 +1,40 @@
+[
+  {
+    "name": "label",
+    "type": "string",
+    "description": "按钮文案，留空时显示默认插槽内容",
+    "default": "\"\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": ""
+  },
+  {
+    "name": "color",
+    "type": "string",
+    "description": "主色，用于文字、描边和聚光光斑",
+    "default": "\"#a3e635\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#a3e635"
+  },
+  {
+    "name": "radius",
+    "type": "number",
+    "description": "聚光半径，单位 px，越大光斑铺得越开",
+    "default": "140",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 140,
+    "control": {
+      "min": 40,
+      "max": 400,
+      "step": 10
+    }
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "name": "before",
+    "type": "string",
+    "description": "对比左侧（Before）图片地址",
+    "default": "\"\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": ""
+  },
+  {
+    "name": "after",
+    "type": "string",
+    "description": "对比右侧（After）图片地址",
+    "default": "\"\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": ""
+  },
+  {
+    "name": "position",
+    "type": "number",
+    "description": "中线位置 0 ~ 100（可用 v-model:position 双向绑定）",
+    "default": "50",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 50,
+    "control": {
+      "min": 0,
+      "max": 100,
+      "step": 1
+    }
+  },
+  {
+    "name": "ratio",
+    "type": "number",
+    "description": "卡片宽高比，默认 16:9（约 1.78）",
+    "default": "1.78",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1.78,
+    "control": {
+      "min": 0.6,
+      "max": 2.4,
+      "step": 0.1
+    }
+  },
+  {
+    "name": "beforeLabel",
+    "type": "string",
+    "description": "左侧标签文字，传空字符串则不显示",
+    "default": "\"Before\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "Before"
+  },
+  {
+    "name": "afterLabel",
+    "type": "string",
+    "description": "右侧标签文字",
+    "default": "\"After\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "After"
+  },
+  {
+    "name": "showLabels",
+    "type": "boolean",
+    "description": "是否显示左上 / 右上两个标签",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "handleSize",
+    "type": "number",
+    "description": "圆形把手直径，单位 px",
+    "default": "62",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 62,
+    "control": {
+      "min": 32,
+      "max": 96,
+      "step": 2
+    }
+  },
+  {
+    "name": "accent",
+    "type": "string",
+    "description": "中线 / 把手的主色",
+    "default": "\"#f26d3d\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#f26d3d"
+  },
+  {
+    "name": "autoSweep",
+    "type": "boolean",
+    "description": "是否开启自动巡航（中线来回扫）",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  },
+  {
+    "name": "sweepSpeed",
+    "type": "number",
+    "description": "自动巡航速度（每帧移动的百分比）",
+    "default": "0.35",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 0.35,
+    "control": {
+      "min": 0.05,
+      "max": 1.5,
+      "step": 0.05
+    }
+  }
+]

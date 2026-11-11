@@ -1,0 +1,67 @@
+[
+  {
+    "name": "size",
+    "type": "number",
+    "description": "沙漏宽度，单位 px（高度按 5:3 自动算）",
+    "default": "120",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 120,
+    "control": {
+      "min": 60,
+      "max": 260,
+      "step": 10
+    }
+  },
+  {
+    "name": "speed",
+    "type": "number",
+    "description": "一轮流沙 + 翻转的时长，单位秒",
+    "default": "10",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 10,
+    "control": {
+      "min": 2,
+      "max": 30,
+      "step": 1
+    }
+  },
+  {
+    "name": "sandColor",
+    "type": "string",
+    "description": "沙子颜色",
+    "default": "\"#f5d76e\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#f5d76e"
+  },
+  {
+    "name": "frameColor",
+    "type": "string",
+    "description": "木框颜色",
+    "default": "\"#5d4037\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#5d4037"
+  },
+  {
+    "name": "paused",
+    "type": "boolean",
+    "description": "是否暂停",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "name": "text",
+    "type": "string",
+    "description": "要打印的文字，\\n 表示换行",
+    "default": "\"HELLO，欢迎来到 comps-vue3 ✨\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "HELLO，欢迎来到 comps-vue3 ✨"
+  },
+  {
+    "name": "speed",
+    "type": "number",
+    "description": "每个字的间隔，单位毫秒",
+    "default": "120",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 120,
+    "control": {
+      "min": 20,
+      "max": 600,
+      "step": 10
+    }
+  },
+  {
+    "name": "startDelay",
+    "type": "number",
+    "description": "首次开始前的延迟，单位毫秒",
+    "default": "300",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 300,
+    "control": {
+      "min": 0,
+      "max": 3000,
+      "step": 100
+    }
+  },
+  {
+    "name": "loop",
+    "type": "boolean",
+    "description": "打完后是否重新开始",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "loopDelay",
+    "type": "number",
+    "description": "循环时两轮之间的停顿，单位毫秒",
+    "default": "1600",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1600,
+    "control": {
+      "min": 0,
+      "max": 6000,
+      "step": 100
+    }
+  },
+  {
+    "name": "cursor",
+    "type": "boolean",
+    "description": "是否显示闪烁光标",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "cursorChar",
+    "type": "string",
+    "description": "光标字符",
+    "default": "\"|\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "|"
+  }
+]

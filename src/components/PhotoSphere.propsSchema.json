@@ -1,0 +1,184 @@
+[
+  {
+    "name": "images",
+    "type": "() => string[]",
+    "description": "照片地址列表（可以是 URL 或 dataURL），最多取前 maxItems 张",
+    "default": "[]",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": false
+  },
+  {
+    "name": "size",
+    "type": "number",
+    "description": "球体舞台边长，单位 px",
+    "default": "520",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 520,
+    "control": {
+      "min": 240,
+      "max": 720,
+      "step": 20
+    }
+  },
+  {
+    "name": "thumbSize",
+    "type": "number",
+    "description": "缩略图边长，单位 px",
+    "default": "80",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 80,
+    "control": {
+      "min": 40,
+      "max": 120,
+      "step": 4
+    }
+  },
+  {
+    "name": "radius",
+    "type": "number",
+    "description": "球面半径，单位 px；传 0 表示按 size 自动算",
+    "default": "0",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 0,
+    "control": {
+      "min": 0,
+      "max": 360,
+      "step": 10
+    }
+  },
+  {
+    "name": "maxItems",
+    "type": "number",
+    "description": "最多展示多少张照片",
+    "default": "36",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 36,
+    "control": {
+      "min": 6,
+      "max": 36,
+      "step": 1
+    }
+  },
+  {
+    "name": "draggable",
+    "type": "boolean",
+    "description": "是否允许拖拽旋转",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "autoRotate",
+    "type": "boolean",
+    "description": "空闲时是否缓慢自转",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "autoSpeed",
+    "type": "number",
+    "description": "自转速度，单位 度/帧",
+    "default": "0.06",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 0.06,
+    "control": {
+      "min": 0,
+      "max": 0.6,
+      "step": 0.02
+    }
+  },
+  {
+    "name": "sensitivity",
+    "type": "number",
+    "description": "拖拽灵敏度，屏幕像素换算成角度的系数",
+    "default": "0.08",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 0.08,
+    "control": {
+      "min": 0.02,
+      "max": 0.24,
+      "step": 0.01
+    }
+  },
+  {
+    "name": "friction",
+    "type": "number",
+    "description": "松手后的惯性摩擦，越接近 1 转得越久",
+    "default": "0.98",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 0.98,
+    "control": {
+      "min": 0.9,
+      "max": 0.995,
+      "step": 0.005
+    }
+  },
+  {
+    "name": "upload",
+    "type": "boolean",
+    "description": "是否显示上传/恢复控制条",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "maxUploadSize",
+    "type": "number",
+    "description": "上传图片压缩后的最长边，单位 px",
+    "default": "1200",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1200,
+    "control": {
+      "min": 400,
+      "max": 2400,
+      "step": 100
+    }
+  },
+  {
+    "name": "zoomable",
+    "type": "boolean",
+    "description": "是否允许点击缩略图查看大图",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  }
+]

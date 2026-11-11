@@ -1,0 +1,110 @@
+[
+  {
+    "name": "size",
+    "type": "number",
+    "description": "外框边长，单位 px；内容超出的高度不会被裁掉",
+    "default": "200",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 200,
+    "control": {
+      "min": 80,
+      "max": 480,
+      "step": 10
+    }
+  },
+  {
+    "name": "radius",
+    "type": "number",
+    "description": "圆角，单位 px",
+    "default": "12",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 12,
+    "control": {
+      "min": 0,
+      "max": 60,
+      "step": 1
+    }
+  },
+  {
+    "name": "thickness",
+    "type": "number",
+    "description": "边框厚度，单位 px，流光块的粗细跟着它走",
+    "default": "4",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 4,
+    "control": {
+      "min": 1,
+      "max": 20,
+      "step": 1
+    }
+  },
+  {
+    "name": "color",
+    "type": "string",
+    "description": "流光起始色",
+    "default": "\"#00f5ff\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#00f5ff"
+  },
+  {
+    "name": "color2",
+    "type": "string",
+    "description": "流光结束色，和起始色一起组成 135deg 渐变",
+    "default": "\"#6e00ff\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#6e00ff"
+  },
+  {
+    "name": "duration",
+    "type": "number",
+    "description": "流光绕一圈的时长，单位秒",
+    "default": "3",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 3,
+    "control": {
+      "min": 0.5,
+      "max": 12,
+      "step": 0.5
+    }
+  },
+  {
+    "name": "glow",
+    "type": "boolean",
+    "description": "是否显示外圈呼吸光晕",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "background",
+    "type": "string",
+    "description": "内容区背景色，留空则透明（方便宿主自己用 CSS 上色）",
+    "default": "\"\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": ""
+  }
+]

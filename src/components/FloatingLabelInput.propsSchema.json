@@ -1,0 +1,84 @@
+[
+  {
+    "name": "label",
+    "type": "string",
+    "description": "浮动标签文案",
+    "default": "\"用户名\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "用户名"
+  },
+  {
+    "name": "modelValue",
+    "type": "string",
+    "description": "输入值，配合 v-model 使用",
+    "default": "\"\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": ""
+  },
+  {
+    "name": "type",
+    "type": "string",
+    "description": "输入框类型，text / password / email 等原生类型",
+    "default": "\"text\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "text"
+  },
+  {
+    "name": "color",
+    "type": "string",
+    "description": "主色，聚焦时标签和流动光边都用它",
+    "default": "\"#165dff\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#165dff"
+  },
+  {
+    "name": "height",
+    "type": "number",
+    "description": "输入框高度，单位 px",
+    "default": "50",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 50,
+    "control": {
+      "min": 36,
+      "max": 80,
+      "step": 2
+    }
+  },
+  {
+    "name": "disabled",
+    "type": "boolean",
+    "description": "是否禁用",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  },
+  {
+    "name": "autocomplete",
+    "type": "string",
+    "description": "原生 autocomplete 属性",
+    "default": "\"off\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "off"
+  }
+]

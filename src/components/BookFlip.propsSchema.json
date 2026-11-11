@@ -1,0 +1,167 @@
+[
+  {
+    "name": "pages",
+    "type": "() => { front: Face; back: Face }[]",
+    "description": "内页：每张叶子有 front / back 两面（title / text / image）",
+    "default": "[]",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": false
+  },
+  {
+    "name": "cover",
+    "type": "() => Face",
+    "description": "首封面（合上时看到的那一面）",
+    "default": "{\n  title: '封面',\n  text: ''\n}",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": false
+  },
+  {
+    "name": "endCover",
+    "type": "() => Face",
+    "description": "尾封面（翻到最后看到的那一面）",
+    "default": "{\n  title: '',\n  text: ''\n}",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": false
+  },
+  {
+    "name": "width",
+    "type": "number",
+    "description": "书页宽度，单位 px（单页宽 = 一半）",
+    "default": "560",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 560,
+    "control": {
+      "min": 360,
+      "max": 900,
+      "step": 20
+    }
+  },
+  {
+    "name": "height",
+    "type": "number",
+    "description": "书页高度，单位 px",
+    "default": "380",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 380,
+    "control": {
+      "min": 240,
+      "max": 560,
+      "step": 20
+    }
+  },
+  {
+    "name": "duration",
+    "type": "number",
+    "description": "一次翻页的时长，单位毫秒",
+    "default": "1200",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1200,
+    "control": {
+      "min": 300,
+      "max": 3000,
+      "step": 100
+    }
+  },
+  {
+    "name": "paper",
+    "type": "string",
+    "description": "纸色",
+    "default": "\"#e9e6c4\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#e9e6c4"
+  },
+  {
+    "name": "ink",
+    "type": "string",
+    "description": "正文颜色",
+    "default": "\"#3f3b2f\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#3f3b2f"
+  },
+  {
+    "name": "modelValue",
+    "type": "number",
+    "description": "当前翻到第几张（可用 v-model 双向绑定）",
+    "default": "0",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 0,
+    "control": {
+      "min": 0,
+      "max": 12,
+      "step": 1
+    }
+  },
+  {
+    "name": "controls",
+    "type": "boolean",
+    "description": "是否显示上一页 / 下一页按钮和页码",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "hint",
+    "type": "boolean",
+    "description": "是否显示底部操作提示",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "autoplay",
+    "type": "boolean",
+    "description": "是否自动往后翻（翻到最后一页停下）",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  },
+  {
+    "name": "autoplayInterval",
+    "type": "number",
+    "description": "自动翻页的间隔，单位毫秒",
+    "default": "2600",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 2600,
+    "control": {
+      "min": 800,
+      "max": 6000,
+      "step": 200
+    }
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "name": "stars",
+    "type": "number",
+    "description": "星星数量",
+    "default": "1500",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 1500,
+    "control": {
+      "min": 200,
+      "max": 3000,
+      "step": 100
+    }
+  },
+  {
+    "name": "speed",
+    "type": "number",
+    "description": "巡航速度（滚轮可调，可用 v-model:speed 双向绑定）",
+    "default": "2",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 2,
+    "control": {
+      "min": 0.5,
+      "max": 8,
+      "step": 0.5
+    }
+  },
+  {
+    "name": "boost",
+    "type": "number",
+    "description": "按住指针时速度放大到多少倍",
+    "default": "4",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 4,
+    "control": {
+      "min": 1,
+      "max": 8,
+      "step": 0.5
+    }
+  },
+  {
+    "name": "minSpeed",
+    "type": "number",
+    "description": "滚轮调速的下限",
+    "default": "0.5",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 0.5,
+    "control": {
+      "min": 0,
+      "max": 4,
+      "step": 0.5
+    }
+  },
+  {
+    "name": "maxSpeed",
+    "type": "number",
+    "description": "滚轮调速的上限",
+    "default": "8",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 8,
+    "control": {
+      "min": 4,
+      "max": 20,
+      "step": 0.5
+    }
+  },
+  {
+    "name": "interactive",
+    "type": "boolean",
+    "description": "是否开启「移动指针控方向 / 按住加速 / 滚轮调速」",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "hud",
+    "type": "boolean",
+    "description": "是否显示左上角的曲速 HUD",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "tip",
+    "type": "boolean",
+    "description": "是否显示底部操作提示",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "tipText",
+    "type": "string",
+    "description": "提示文案",
+    "default": "'移动鼠标控制方向 · 按住加速 · 滚轮调节巡航速度'",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "移动鼠标控制方向 · 按住加速 · 滚轮调节巡航速度"
+  },
+  {
+    "name": "color",
+    "type": "string",
+    "description": "HUD / 准星的主色",
+    "default": "'#64c8ff'",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#64c8ff"
+  },
+  {
+    "name": "nebula",
+    "type": "boolean",
+    "description": "是否画背景星云团",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "paused",
+    "type": "boolean",
+    "description": "是否暂停",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  }
+]

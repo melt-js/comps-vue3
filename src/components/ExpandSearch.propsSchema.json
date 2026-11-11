@@ -1,0 +1,105 @@
+[
+  {
+    "name": "modelValue",
+    "type": "string",
+    "description": "搜索关键字，配合 v-model 使用",
+    "default": "\"\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": ""
+  },
+  {
+    "name": "placeholder",
+    "type": "string",
+    "description": "占位文字",
+    "default": "\"搜索...\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "搜索..."
+  },
+  {
+    "name": "color",
+    "type": "string",
+    "description": "主色，描边、图标、阴影都用它",
+    "default": "\"#667eea\"",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": "#667eea"
+  },
+  {
+    "name": "collapsedWidth",
+    "type": "number",
+    "description": "收起时的宽度（圆形状态），单位 px",
+    "default": "60",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 60,
+    "control": {
+      "min": 40,
+      "max": 90,
+      "step": 2
+    }
+  },
+  {
+    "name": "radius",
+    "type": "number",
+    "description": "展开后的圆角，单位 px",
+    "default": "30",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 30,
+    "control": {
+      "min": 0,
+      "max": 30,
+      "step": 1
+    }
+  },
+  {
+    "name": "height",
+    "type": "number",
+    "description": "输入框高度，单位 px",
+    "default": "60",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": 60,
+    "control": {
+      "min": 40,
+      "max": 80,
+      "step": 2
+    }
+  },
+  {
+    "name": "clearable",
+    "type": "boolean",
+    "description": "是否显示清除按钮",
+    "default": "true",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": true
+  },
+  {
+    "name": "disabled",
+    "type": "boolean",
+    "description": "是否禁用",
+    "default": "false",
+    "required": false,
+    "version": "",
+    "isEvent": false,
+    "bindable": true,
+    "value": false
+  }
+]
