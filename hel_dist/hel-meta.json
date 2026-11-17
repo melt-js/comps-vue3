@@ -3,32 +3,32 @@
     "name": "comps-vue3",
     "app_group_name": "comps-vue3",
     "git_repo_url": "",
-    "online_version": "2026.11.14",
-    "build_version": "2026.11.14",
+    "online_version": "2026.11.16-1",
+    "build_version": "2026.11.16-1",
     "platform": "unpkg",
-    "create_at": "2026-11-14T15:47:42.488Z"
+    "create_at": "2026-11-17T07:47:06.339Z"
   },
   "version": {
     "plugin_ver": "5.4.3",
     "extract_mode": "build",
     "sub_app_name": "comps-vue3",
-    "sub_app_version": "comps-vue3@2026.11.14",
-    "version_tag": "2026.11.14",
+    "sub_app_version": "comps-vue3@2026.11.16-1",
+    "version_tag": "2026.11.16-1",
     "src_map": {
       "webDirPath": "/comps-vue3/hel_dist",
       "htmlIndexSrc": "/comps-vue3/hel_dist/index.html",
       "extractMode": "all",
       "iframeSrc": "",
       "chunkCssSrcList": [
-        "/comps-vue3/hel_dist/css/libProperties.a1a4c5b4.css",
+        "/comps-vue3/hel_dist/css/libProperties.131315d1.css",
         "/comps-vue3/hel_dist/css/loadApp.9b610d62.css"
       ],
       "chunkJsSrcList": [
-        "/comps-vue3/hel_dist/js/runtime.042cf107.js",
-        "/comps-vue3/hel_dist/js/vendor.439bcf79.js",
-        "/comps-vue3/hel_dist/js/app.b4ef016e.js",
-        "/comps-vue3/hel_dist/js/libProperties.14110d49.js",
-        "/comps-vue3/hel_dist/js/loadApp.60946072.js"
+        "/comps-vue3/hel_dist/js/runtime.6091e235.js",
+        "/comps-vue3/hel_dist/js/vendor.11dfb1a8.js",
+        "/comps-vue3/hel_dist/js/app.fce418a4.js",
+        "/comps-vue3/hel_dist/js/libProperties.6eb9cb30.js",
+        "/comps-vue3/hel_dist/js/loadApp.1882ae35.js"
       ],
       "staticCssSrcList": [],
       "staticJsSrcList": [
@@ -48,7 +48,7 @@
           "tag": "script",
           "append": true,
           "attrs": {
-            "src": "/comps-vue3/hel_dist/js/runtime.042cf107.js",
+            "src": "/comps-vue3/hel_dist/js/runtime.6091e235.js",
             "defer": "defer"
           }
         },
@@ -56,7 +56,7 @@
           "tag": "script",
           "append": true,
           "attrs": {
-            "src": "/comps-vue3/hel_dist/js/vendor.439bcf79.js",
+            "src": "/comps-vue3/hel_dist/js/vendor.11dfb1a8.js",
             "defer": "defer"
           }
         },
@@ -64,7 +64,7 @@
           "tag": "script",
           "append": true,
           "attrs": {
-            "src": "/comps-vue3/hel_dist/js/app.b4ef016e.js",
+            "src": "/comps-vue3/hel_dist/js/app.fce418a4.js",
             "defer": "defer"
           }
         }
@@ -360,17 +360,17 @@
         "/comps-vue3/hel_dist/bilibili/winter-5/f569be6834a5968c038bcc0fb0403f8f77e24c18.png@1c.webp",
         "/comps-vue3/hel_dist/bilibili/winter-5/fbfeb5de7e41fd1e888fca7ac76cbf2f8a42f3d3.png@1c.webp",
         "/comps-vue3/hel_dist/bilibili/winter-5/logo.png",
-        "/comps-vue3/hel_dist/css/libProperties.a1a4c5b4.css.gz",
+        "/comps-vue3/hel_dist/css/libProperties.131315d1.css.gz",
         "/comps-vue3/hel_dist/index.html",
-        "/comps-vue3/hel_dist/js/libProperties.14110d49.js.gz",
-        "/comps-vue3/hel_dist/js/loadApp.60946072.js.gz",
-        "/comps-vue3/hel_dist/js/vendor.439bcf79.js.gz"
+        "/comps-vue3/hel_dist/js/libProperties.6eb9cb30.js.gz",
+        "/comps-vue3/hel_dist/js/loadApp.1882ae35.js.gz",
+        "/comps-vue3/hel_dist/js/vendor.11dfb1a8.js.gz"
       ],
       "srvModSrcList": [],
       "srvModSrcIndex": ""
     },
-    "html_content": "<!doctype html><html lang=\"\"><head><meta charset=\"utf-8\"/><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>@melt-js/comps-vue3</title><script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.44/dist/vue.global.prod.js\"></script><script defer=\"defer\" src=\"/comps-vue3/hel_dist/js/runtime.042cf107.js\"></script><script defer=\"defer\" src=\"/comps-vue3/hel_dist/js/vendor.439bcf79.js\"></script><script defer=\"defer\" src=\"/comps-vue3/hel_dist/js/app.b4ef016e.js\"></script></head><body><noscript><strong>We're sorry but @melt-js/comps-vue3 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div></body></html>",
-    "create_at": "2026-11-14T15:47:42.488Z",
+    "html_content": "<!doctype html><html lang=\"\"><head><meta charset=\"utf-8\"/><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><title>@melt-js/comps-vue3</title><script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.44/dist/vue.global.prod.js\"></script><script defer=\"defer\" src=\"/comps-vue3/hel_dist/js/runtime.6091e235.js\"></script><script defer=\"defer\" src=\"/comps-vue3/hel_dist/js/vendor.11dfb1a8.js\"></script><script defer=\"defer\" src=\"/comps-vue3/hel_dist/js/app.fce418a4.js\"></script></head><body><noscript><strong>We're sorry but @melt-js/comps-vue3 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div></body></html>",
+    "create_at": "2026-11-17T07:47:06.339Z",
     "desc": "this version meta is created by hel-dev-utils@5.4.3"
   }
 }
